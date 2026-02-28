@@ -1,0 +1,55 @@
+import { Level } from './types';
+
+export const TOPICS_BY_LEVEL: Record<Level, string[]> = {
+  B1: [
+    'Arbeit und Beruf',
+    'Wohnen',
+    'Reisen',
+    'Gesundheit',
+    'Familie',
+    'Freizeit',
+    'Einkaufen',
+    'Digitalisierung im Alltag',
+    'Umwelt im Alltag',
+    'Schule und Ausbildung',
+    'Ernährung',
+    'Öffentliche Verkehrsmittel',
+    'Zeitmanagement',
+    'Hobbys',
+    'Sport im Alltag'
+  ],
+  B2: [
+    'Künstliche Intelligenz',
+    'Klimapolitik',
+    'Datenschutz',
+    'Bildungssystem',
+    'Social Media Regulierung',
+    'Nachhaltigkeit',
+    'Migration',
+    'Arbeitsmarkt der Zukunft',
+    'Globalisierung',
+    'Medien und Meinungsbildung',
+    'Digitalisierung der Arbeit',
+    'Politische Verantwortung',
+    'Stadt vs. Land',
+    'Wirtschaft und Konsum',
+    'Technologischer Fortschritt'
+  ],
+  C1: [
+    'Ethik der Technologie',
+    'Demokratie und Populismus',
+    'Wirtschaftliche Ungleichheit',
+    'Medienmanipulation',
+    'Freiheit vs. Sicherheit',
+    'Verantwortung des Staates',
+    'Bildungsgerechtigkeit',
+    'Digitalisierung der Gesellschaft',
+    'Kulturelle Identität',
+    'KI und Machtstrukturen',
+    'Moralische Verantwortung',
+    'Zukunft der Demokratie',
+    'Soziale Polarisierung',
+    'Globale Machtverschiebung',
+    'Kapitalismus und Nachhaltigkeit'
+  ],
+};
